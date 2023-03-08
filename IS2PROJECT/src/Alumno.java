@@ -20,6 +20,6 @@ public class Alumno {
     private String Contrasena;
 
     @objid ("96d28ea4-571d-40fc-b7e0-80b625eeb0ca")
-    public List<Asignatura> asignatura = new ArrayList<Asignatura> ();
+    public List<Asignatura> asignatura = new ArrayList<Asignatura> (); //relacion
 
 }
