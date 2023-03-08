@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="is2" version="4">
+  <OBJECT>
+    <ID name="is2" mc="Standard.Package" uid="a3c6f4c5-ae07-4054-96b8-2ebdf7e2d812"/>
+    <PID name="IS2" mc="Standard.Project" uid="2671b059-6142-4f81-80c7-a16db3cdc12e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[is2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Alumno" mc="Standard.Class" uid="226e175e-f9b9-4331-b438-aef8ec2cd1e1"/>
+        <COMPID name="Asignatura" mc="Standard.Class" uid="8ae8797e-9a85-4f4f-bb6d-ca24272e0aa7"/>
+        <COMPID name="Archivo" mc="Standard.Class" uid="6cc6708e-2ab4-410d-a1aa-6bb7feb9e4e7"/>
+        <COMPID name="Tarea" mc="Standard.Class" uid="4cfbdff9-4314-4d1f-8715-5d1685bd1fff"/>
+        <COMPID name="Tema" mc="Standard.Class" uid="619df225-21c8-4625-ae52-69fc18104805"/>
+        <COMPID name="Comentario" mc="Standard.Class" uid="73966c99-98cc-4644-8953-fb3a5dc05cd2"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="Modelo de dominio" mc="Standard.ClassDiagram" uid="91671185-8f04-457f-b6a0-6ea821510a0f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
